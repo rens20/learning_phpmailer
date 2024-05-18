@@ -38,7 +38,7 @@ function Register($email, $password, $name) {
             $mail->Host       = 'smtp.gmail.com';  // Your SMTP server
             $mail->SMTPAuth   = true;
             $mail->Username   = 'wasieacuna@gmail.com';  // Your email address
-            $mail->Password   = 'qipc vais smfq rwim';  
+            $mail->Password   = '';  
             $mail->SMTPSecure = 'ssl';
             $mail->Port       = 465;
 
